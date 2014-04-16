@@ -13,7 +13,6 @@ BlobTracker.exe -d config.cfg
 ### Linux ###
 ./BlobTracker -d config.cfg
 
-
 ### Config Params ###
 
 config.cfg has all the configurations for running the tracker, here are the few things that you would have to change.
@@ -35,18 +34,17 @@ config.cfg has all the configurations for running the tracker, here are the few 
 
 ### Output ###
 
-Output videos will be created in the specified output folder.
+Output videos will be created in the specified output folder ("OutPut_Video_Directory").
 
-input_file_name.extension_BT.avi contains the learned background video
-input_file_name.extension_FG.avi shows the foreground region
+      * input_file_name.extension_BT.avi contains the learned background video
+      * input_file_name.extension_FG.avi shows the foreground region
 
-input_file_name.extension_record.txt stores the tracking results in the following format:
-
-[ frameNumber, xCentroid, yCentroid, width, height, objectId, timestamp(seconds) ]
+      * input_file_name.extension_record.txt stores the tracking results in the following format:[ frameNumber, xCentroid, yCentroid, width, height, objectId, timestamp(seconds) ]
 
 
 ### Contact ###
 [1] Santhoshkumar Sunderrajan( santhosh@ece.ucsb.edu)
+Website: http://vision.ece.ucsb.edu/~santhosh/
 
 ### Bibtex ###
 If you use the code in any of your research works, please cite the following papers:
