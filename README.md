@@ -1,5 +1,5 @@
 
-A background subtraction based tracking algorithm based on OpenCV. It depends on OpenCv and Boost libraries.
+A background subtraction based tracking algorithm using OpenCV. It depends on OpenCv (http://opencv.org/) and Boost libraries (http://www.boost.org/).
 
 Usage
 ------------
@@ -18,20 +18,20 @@ BlobTracker.exe -d config.cfg
 
 config.cfg has all the configurations for running the tracker, here are the few things that you would have to change.
 
-"Input_Video_Directory"   		---> where the video files are stored
-"Input_Video_Name_List"   		---> name of the video files (comma separated)
-"Input_Camera_ID_List"	  		---> camera id for internal usage( use sequential numbers)
-"Start_Frame_Index"		  		---> starting frame for the video to be processed (0 to start from the beginning)
-"Number_Of_Frames"		  		---> number of frames to be tracked (-1 for the entire video)
+      * "Input_Video_Directory"   		---> where the video files are stored
+      * "Input_Video_Name_List"   		---> name of the video files (comma separated)
+      * "Input_Camera_ID_List"	  		---> camera id for internal usage( use sequential numbers)
+      * "Start_Frame_Index"		  		---> starting frame for the video to be processed (0 to start from the beginning)
+      * "Number_Of_Frames"		  		---> number of frames to be tracked (-1 for the entire video)
 
-"OutPut_Video_Directory"  		---> where the output files will be stored (also the track outputs in text format)
-"Log_File_Name"			  		---> name of the log file (log file will be generated in the output folder)
-"Display_Intermediate_Result"   ---> whether to display intermediate output on the dialog box or not
-"Save_Intermediate_Result"		---> whether to save the intermediate results on the output directory
+      * "OutPut_Video_Directory"  		---> where the output files will be stored (also the track outputs in text format)
+      * "Log_File_Name"			  		---> name of the log file (log file will be generated in the output folder)
+      * "Display_Intermediate_Result"   ---> whether to display intermediate output on the dialog box or not
+      * "Save_Intermediate_Result"		---> whether to save the intermediate results on the output directory
 
-"Down_Scale_Image"				---> whether to downscale the image by a factor or 2 or not (use it for speed)
+      * "Down_Scale_Image"				---> whether to downscale the image by a factor or 2 or not (use it for speed)
 
-"FG_Train_Frames"				----> number of frames used for training the background model
+      * "FG_Train_Frames"				---> number of frames used for training the background model
 
 ### Output ###
 
@@ -48,9 +48,9 @@ input_file_name.extension_record.txt stores the tracking results in the followin
 ### Contact ###
 [1] Santhoshkumar Sunderrajan( santhosh@ece.ucsb.edu)
 
-### Bitex ###
+### Bibtex ###
 If you use the code in any of your research works, please cite the following papers:
-
+~~~
 @inproceedings{sunderrajan2013context,
   title={Context-Aware Graph Modeling for Object Search and Retrieval in a Wide Area Camera Network},
   author={Sunderrajan, Santhoshkumar and Xu, Jiejun and Manjunath, BS},
@@ -64,3 +64,4 @@ If you use the code in any of your research works, please cite the following pap
   year={2013},
   publisher={IEEE}
 }
+~~~
