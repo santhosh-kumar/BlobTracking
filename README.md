@@ -1,23 +1,20 @@
 
-A background subtraction based tracking algorithm based on OpenCV. 
+A background subtraction based tracking algorithm based on OpenCV. It depends on OpenCv and Boost libraries.
 
 Usage
-============
+------------
 
 In order to the tracker, use the following command:
 
-Windows
-------------
+### Windows ###
 
 BlobTracker.exe -d config.cfg
 
-Linux
-------------
+### Linux ###
 ./BlobTracker -d config.cfg
 
 
-Usage
-============
+### Config Params ###
 
 config.cfg has all the configurations for running the tracker, here are the few things that you would have to change.
 
@@ -36,8 +33,7 @@ config.cfg has all the configurations for running the tracker, here are the few 
 
 "FG_Train_Frames"				----> number of frames used for training the background model
 
-Output
-------------
+### Output ###
 
 Output videos will be created in the specified output folder.
 
@@ -49,12 +45,10 @@ input_file_name.extension_record.txt stores the tracking results in the followin
 [ frameNumber, xCentroid, yCentroid, width, height, objectId, timestamp(seconds) ]
 
 
-Contact
-============
+### Contact ###
 [1] Santhoshkumar Sunderrajan( santhosh@ece.ucsb.edu)
 
-Bibtex
-============
+### Bitex ###
 If you use the code in any of your research works, please cite the following papers:
 
 @inproceedings{sunderrajan2013context,
