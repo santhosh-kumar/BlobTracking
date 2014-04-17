@@ -62,4 +62,9 @@ If you use the code in any of your research works, please cite the following pap
   year={2013},
   publisher={IEEE}
 }
+
+@article{sunderrajanucsb,
+  title={UCSB UCR VCG TRECVID 2012},
+  author={Sunderrajan, Santhoshkumar and Hasan, Mahmudul and Pourian, Niloufar and Zhu, Yingying and Manjunath, BS and Chowdhury, Amit Roy}
+}
 ~~~

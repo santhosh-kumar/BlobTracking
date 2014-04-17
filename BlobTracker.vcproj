@@ -24,7 +24,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
-			InheritedPropertySheets="..\Property Sheets\opencv2_3.vsprops"
+			InheritedPropertySheets="property_sheets\opencv2_3.vsprops"
 			CharacterSet="2"
 			>
 			<Tool
@@ -97,7 +97,7 @@
 			OutputDirectory="$(SolutionDir)$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="1"
-			InheritedPropertySheets="..\Property Sheets\opencv2_3_64.vsprops"
+			InheritedPropertySheets="property_sheets\opencv2_3_64.vsprops"
 			CharacterSet="2"
 			>
 			<Tool
@@ -172,7 +172,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
-			InheritedPropertySheets="..\Property Sheets\opencv2_3.vsprops"
+			InheritedPropertySheets="property_sheets\opencv2_3.vsprops"
 			CharacterSet="2"
 			WholeProgramOptimization="1"
 			>
@@ -247,7 +247,7 @@
 			OutputDirectory="$(SolutionDir)$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="1"
-			InheritedPropertySheets="..\Property Sheets\opencv2_3_64.vsprops"
+			InheritedPropertySheets="property_sheets\opencv2_3_64.vsprops"
 			CharacterSet="2"
 			>
 			<Tool
