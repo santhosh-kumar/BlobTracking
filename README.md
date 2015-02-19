@@ -4,7 +4,7 @@ A background subtraction based tracking algorithm using OpenCV. It depends on Op
 Usage
 ------------
 
-In order to the tracker, use the following command:
+In order to run the tracker, use the following command:
 
 ### Windows ###
 
