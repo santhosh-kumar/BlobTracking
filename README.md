@@ -49,6 +49,20 @@ Website: http://vision.ece.ucsb.edu/~santhosh/
 ### Bibtex ###
 If you use the code in any of your research works, please cite the following papers:
 ~~~
+@ARTICLE{sunderrajan2015context, 
+  author={Sunderrajan, S. and Manjunath, B.S.}, 
+  journal={Multimedia, IEEE Transactions on}, 
+  title={Context-Aware Hypergraph Modeling for Re-identification and Summarization}, 
+  year={2016}, 
+  volume={18}, 
+  number={1}, 
+  pages={51-63}, 
+  keywords={Cameras;Clothing;Histograms;Image color analysis;Indexes;Topology;Training;Camera network;person re-identification;search;summarization}, 
+  doi={10.1109/TMM.2015.2496139}, 
+  ISSN={1520-9210}, 
+  month={Jan}
+}
+
 @inproceedings{sunderrajan2013context,
   title={Context-Aware Graph Modeling for Object Search and Retrieval in a Wide Area Camera Network},
   author={Sunderrajan, Santhoshkumar and Xu, Jiejun and Manjunath, BS},
